@@ -1,0 +1,4 @@
+//10. ¿Cuando es conveniente utilizar un callback, y cuando es necesario utilizar una promesa?
+//Un callback es conveniente cuando se necesita ejecutar una función después de que se complete una tarea asincrónica, como una solicitud de red o una operación de lectura/escritura de archivos. Los callbacks son simples y fáciles de entender, pero pueden llevar a problemas de anidamiento y dificultad para manejar errores.
+
+//Una promesa es necesaria cuando se necesita manejar múltiples tareas asincrónicas de manera más legible y manejable. Las promesas permiten encadenar operaciones asincrónicas y manejar errores de manera más clara, evitando el problema del "callback hell". Además, las promesas son compatibles con la sintaxis async/await, lo que facilita aún más la escritura de código asincrónico.
